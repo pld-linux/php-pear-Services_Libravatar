@@ -1,5 +1,6 @@
 %define		status		alpha
 %define		pearname	Services_Libravatar
+%define		php_min_version 5.2.0
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - API interfacing class for libravatar.org
 Name:		php-pear-Services_Libravatar
@@ -14,6 +15,11 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	php(core) >= %{php_min_version}
+Requires:	php(filter)
+Requires:	php(hash)
+Requires:	php(pcre)
+Requires:	php(spl)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
