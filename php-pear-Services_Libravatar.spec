@@ -4,12 +4,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - API interfacing class for libravatar.org
 Name:		php-pear-Services_Libravatar
-Version:	0.2.2
+Version:	0.2.3
 Release:	1
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
-# Source0-md5:	34ed27cdfcac0421dcd069ecb369358a
+# Source0-md5:	510ea180536e3c0bec1be7ca0ead32b9
 URL:		http://pear.php.net/package/Services_Libravatar/
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
