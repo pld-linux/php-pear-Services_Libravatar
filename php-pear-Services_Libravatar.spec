@@ -1,7 +1,6 @@
 %define		status		alpha
 %define		pearname	Services_Libravatar
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - API interfacing class for libravatar.org
 Name:		php-pear-Services_Libravatar
 Version:	0.2.3
